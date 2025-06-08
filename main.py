@@ -21,7 +21,6 @@ pause = False
 game_over = False
 while not game_over:
     pressed = pygame.key.get_pressed()
-    pygame.key.set_repeat()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game_over = True
